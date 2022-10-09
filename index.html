@@ -11,17 +11,20 @@
     <div class="box">
         <h1>Rock Paper Scissors</h1>
         <div class="main-screen">
-            <div class= "label player-screen">Player</div>
-            <div class= "label computer-screen">Computer</div>
-            <div id="scoreGame" class = "score">
-                0-0
+            <div class="name">
+                <div class= "label player-screen">Player</div>
+                <div class= "label computer-screen">Computer</div>
+                <div id="scoreGame" class = "score">
+                    0 0
+                </div>
             </div>
+            
+            
+            
         </div>
         
-        <div class= "main-screen game-screen selected-image">
-            <div id="player">
-                <img src="assets/images/rock.svg" rel="rock">
-            </div>
+        <div class= "main-screen game-screen image">
+            <div id="player"> </div>
 
             <div id="computer"></div>
         </div>
@@ -35,13 +38,13 @@
         </div>
     </div>
 
-    <div id="winner" class="box end-screen none">
-        <h2>You Win!! :)</h2>
+    <div id="winner" class="box play-again none">
+        <p>You Win!! :)</p>
         <button onclick="restart()">Play again</button> 
      </div>
      
-     <div id="loser" class="box end-screen none">
-        <h2>You Loose! :/</h2>
+     <div id="loser" class="box play-again none">
+        <p>You Loose! :/</p>
         <button onclick="restart()">Play again</button>
      </div>
 
