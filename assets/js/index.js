@@ -80,7 +80,7 @@ function cleanScore(){
 
 function restart(){
     cleanScore()
-    score.innerHTML = "- x -"
+    score.innerHTML = "0x0"
     computerScore = 0
     playerScore = 0
     winner.classList.add('front-screen')
