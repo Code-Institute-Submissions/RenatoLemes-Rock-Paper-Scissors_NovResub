@@ -1,8 +1,8 @@
 #Rock Paper Scissors Game
 
-![This is an image](/workspace/Rock-Paper-Scissors/assets/images/AmIresponsive.jpg)
+![This is an image](/assets/images/AmIresponsive.jpg)
 
-
+...
 
 
 color : https://color.adobe.com/search?q=1B262C&t=hex
