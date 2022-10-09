@@ -31,8 +31,22 @@
             <button id="paperInput" onclick="selectGame()" class="btn"><img src="assets/images/paper.svg" rel="paper"></button>
             <button id="scissorsInput" onclick="selectGame()" class="btn"><img src="assets/images/scissors.svg" rel="scissors"></button>
         </div>
-        
     </div>
+
+    <div id="winner" class="box end-screen none">
+        <h2>You Win!! :)</h2>
+        <button onclick="restart()">Play again</button> 
+     </div>
+     
+     <div id="loser" class="box end-screen none">
+        <h2>You Loose! :/</h2>
+        <button onclick="restart()">Play again</button>
+     </div>
+
+<script src="assets/js/index.js"></script>
+</body>
+</html>
+
 
 </body>
 </html>
