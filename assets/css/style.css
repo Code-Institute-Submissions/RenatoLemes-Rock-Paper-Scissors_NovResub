@@ -30,7 +30,7 @@ h1 {
     color: white;
     padding: 15px 0;
     text-transform: uppercase ;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -45,29 +45,16 @@ h1 {
 }
 
 .label {
-    /* width: 50%; */
-    font-size: 120%;
+    font-size: 200%;
     text-align: center;
     position: absolute;
 }
 
 /* Main screens of the game */
 
-.player-screen {
-    color: white;
-    background-color: blue;
-    left: 20%;
-}
-
-.computer-screen {
-    color: white;
-    background-color: #FE1E15;
-    right: 20%;
-}
-
 .game-screen {
-    background-color: #BBE1FA;
-    height: 250px;
+    background-color: white;
+    height: 200px;
 }
 
 .score {
@@ -81,18 +68,26 @@ h1 {
     font-family: 'work sans', sans-serif;
 }
 
-/* image on the main screen game */
+.player-screen {
+    color: white;
+    background-color: blue;
+    left: 2%;
+}
+
+.computer-screen {
+    color: white;
+    background-color: #FE1E15;
+    right: 2%;
+}
 
 .image div {
     width: 50%;
     min-height: 80px;
     text-align: center;
-    
 }
 
 .image div img {
-    max-width: 60%;
-    border: none;
+    max-width: 70%;
 }
 
 h2 {
@@ -106,7 +101,7 @@ h2 {
 
 .buttons {
     width: 100%;
-    height: 150px;
+    height: 200px;
     display: flex;
     align-items: center;
     position: relative;
@@ -114,7 +109,14 @@ h2 {
 }
 
 .buttons img {
-    max-width: 60%;
+    max-width: 80%;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+
+}
+
+.buttons img:hover {
+    transform: scale(1.6);
 }
 
 .btn {
@@ -137,161 +139,42 @@ h2 {
 }
 
 .play-again button {
-    padding: 10px;
-    width: 80%;
-    border-radius: 10px;
+    width: 100px;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'work sans', sans-serif;
     text-transform: uppercase
 }
 
-.center {
+.newWindow {
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.none {
+.front-screen {
     display: none;
 }
 
-/* move this img up */
-
-img {
-    background-color: #F2F2F2;
-    border-radius: 50%;
-    border: none;
-}
-
-img:hover {
-    transform: scale(1.8);
-}
-
-/* ------------------ */
-
-@media (max-width:320px) {
-
-}
-
-@media (max-width:570px) {
-
     
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: 'work sans', sans-serif;
-        background-color:  #F2F2F2;
+@media (max-width:570px) {
+    * {
+        margin: 0;
+        padding: 0;
     }
     
-    /* this could be changed */
-    .box {
-        position: absolute;
-        width: 50%;
-        /* min-height: 650px; */
-        background: white;
+    html, body {
+        width: 100%;
+        height: 100%;
     }
     
     h1 {
-        background-color: #0F4C75;
-        color: white;
-        padding: 15px 0;
-        text-transform: uppercase ;
-        font-size: 50%;
-        text-align: center;
+        font-size: 30px;
     }
-    
-    .main-screen {
-        height: 50%;
-        width: 100%;
-        padding: 20px 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-    }
-    
-
-
----------------------------------
-    .label {
-        font-size: 120%;
-        text-align: center;
-        position: absolute;
-    }
-    
-    /* Main screens of the game */
-    
-    .player-screen {
-        color: white;
-        background-color: blue;
-        left: 5%;
-    }
-    
-    .computer-screen {
-        color: white;
-        background-color: #FE1E15;
-        right: 5%;
-    }
-    
-    .game-screen {
-        background-color: #BBE1FA;
-        height: 120px;
-    }
-    
-    .score {
-        width: 200px;
-        height: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 50px;
-        font-family: 'work sans', sans-serif;
-    }
-
-}
-
-
-
-
-
-@media (max-width:768px){
 
     .label {
-        font-size: 80%;
-        text-align: center;
-        position: absolute;
+        font-size: 20px;
     }
-    
-    /* Main screens of the game */
-    
-    .player-screen {
-        color: white;
-        background-color: blue;
-        left: 5%;
-    }
-    
-    .computer-screen {
-        color: white;
-        background-color: #FE1E15;
-        right: 5%;
-    }
-    
-    .game-screen {
-        background-color: #BBE1FA;
-        height: 80px;
-    }
-    
-    .score {
-        width: 200px;
-        height: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 50px;
-        font-family: 'work sans', sans-serif;
-    }
-
 }

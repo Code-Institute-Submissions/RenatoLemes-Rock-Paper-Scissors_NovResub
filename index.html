@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rock Paper Scissors Game">
+    <meta name="keywords" content="game, rock, paper, scissors, javaScript">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock Paper Scissors</title>
 </head>
@@ -15,12 +17,9 @@
                 <div class= "label player-screen">Player</div>
                 <div class= "label computer-screen">Computer</div>
                 <div id="scoreGame" class = "score">
-                    0 0
+                    - x -
                 </div>
             </div>
-            
-            
-            
         </div>
         
         <div class= "main-screen game-screen image">
@@ -29,22 +28,24 @@
             <div id="computer"></div>
         </div>
 
-        <h2>Choose your move!</h2>
+        <h2>Click & Play</h2>
         
         <div class="buttons">
-            <button id="rockInput" onclick="selectGame()" class="btn" value="rock"><img src="assets/images/rock.svg" rel="rock"></button>
-            <button id="paperInput" onclick="selectGame()" class="btn"value="paper"><img src="assets/images/paper.svg" rel="paper"></button>
-            <button id="scissorsInput" onclick="selectGame()" class="btn" value="scissors"><img src="assets/images/scissors.svg" rel="scissors"></button>
+            <button id="rockInput" onclick="selectGame()" class="btn" value="rock"><img src="assets/images/rock.svg" rel="rock" alt="rock"></button>
+            <button id="paperInput" onclick="selectGame()" class="btn" value="paper"><img src="assets/images/paper.svg" rel="paper" alt="paper"></button>
+            <button id="scissorsInput" onclick="selectGame()" class="btn" value="scissors"><img src="assets/images/scissors.svg" rel="scissors" alt="scissors"></button>
         </div>
     </div>
 
-    <div id="winner" class="box play-again none">
+    <div id="winner" class="box play-again front-screen">
         <p>You Win!! :)</p>
+        <br>
         <button onclick="restart()">Play again</button> 
      </div>
      
-     <div id="loser" class="box play-again none">
+     <div id="loser" class="box play-again front-screen">
         <p>You Loose! :/</p>
+        <br>
         <button onclick="restart()">Play again</button>
      </div>
 
