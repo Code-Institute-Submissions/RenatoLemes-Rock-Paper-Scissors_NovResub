@@ -14,8 +14,25 @@
             <div class= "label player-screen">Player</div>
             <div class= "label computer-screen">Computer</div>
             <div id="scoreGame" class = "score">
-                0-0
+                0 0
             </div>
         </div>
+        
+    <div class= "main-screen game-screen selected-image">
+        <div id="player">
+            <img src="assets/images/rock.svg" rel="rock">
+        </div>
+        <div id="computer"></div>
+    </div>
+        <h2>Choose your move!</h2>
+        
+        <div class="buttons">
+            <button id="rockInput" onclick="selectGame()" class="btn"><img src="assets/images/rock.svg" rel="rock"></button>
+            <button id="paperInput" onclick="selectGame()" class="btn"><img src="assets/images/paper.svg" rel="paper"></button>
+            <button id="scissorsInput" onclick="selectGame()" class="btn"><img src="assets/images/scissors.svg" rel="scissors"></button>
+        </div>
+        
+    </div>
+
 </body>
 </html>
