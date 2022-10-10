@@ -4,6 +4,8 @@ Rock Paper Scissors is an Ancient Game, and it is believe was created by the chi
 
 ![](/assets/images/AmIresponsive.jpg)
 
+[Live DEMO](https://renatolemes.github.io/Rock-Paper-Scissors/)
+
 
 ## **Rules**
 
