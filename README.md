@@ -1,8 +1,18 @@
 # **Rock Paper Scissors Game**
 
-This is Rock Papaer Scissors game which 
+Rock Paper Scissors is an Ancient Game, and it is believe was created by the chinese people. The game has developed since its creation and now with help of JavaScript, it was possible to develop an website bringing this game to the digital world.
 
 ![](/assets/images/AmIresponsive.jpg)
+
+
+## **Rules**
+
+- **Rock** Cruches **Scissors**
+
+- **Paper** Covers **Rock**
+
+- **Scissors** Cuts **Paper**
+
 
 ## **Features**
 
@@ -25,6 +35,7 @@ Screen shows that Gamer won, and they have a chance to continue playing clicking
 Screen shows that Computer won, but game have a chance to continue playing clicking on the botton "play again"::
 
 <img src="assets/images/gameImages/YouLose.png" width="400" height="300">
+
 
 ## **Testing**
 
@@ -57,6 +68,7 @@ No errors were found. Tool used to validate: [Jshint validator](https://jshint.c
 
 There are no Bugs left to be fixed.
 
+
 ## **Deployement**
 
 The project was deployed to GitHub Pages using the following steps:
@@ -67,12 +79,14 @@ The project was deployed to GitHub Pages using the following steps:
 - click on "Select branch:" it will drop down. Select "Main", make sure the "Select folder" has "/root" selected.
 - The page will automatically refresh and you receive message "Your site is published at https://renatolemes.github.io/Rock-Paper-Scissors/.
 
+
 ## **Credits**
 
 ### General Resource
 
 These websites were used from inpiration and general resources for coding:
 
+- JavaScript Essentials Material
 - [Love Maths Project](https://renatolemes.github.io/love-maths/)
 - [W3School](https://www.w3schools.com/)
 - [MDN](https://developer.mozilla.org/en-US/)
