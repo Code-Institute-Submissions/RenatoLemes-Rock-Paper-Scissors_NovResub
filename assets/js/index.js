@@ -61,12 +61,12 @@ function gameRule() {
 
     score.innerHTML = playerScore + " x " + computerScore;
 
-    if (playerScore >= 2){
+    if (playerScore >= 5){
         winner.classList.remove('front-screen');
         winner.classList.add('newWindow');
     }
 
-    if (computerScore >= 2){
+    if (computerScore >= 5){
         loser.classList.remove('front-screen');
         loser.classList.add('newWindow');
     }

@@ -1,11 +1,38 @@
-# Rock Paper Scissors Game
+# **Rock Paper Scissors Game**
 
 This is Rock Papaer Scissors game which 
 
-![This is an image](/assets/images/AmIresponsive.jpg)
+![](/assets/images/AmIresponsive.jpg)
 
-## Features
+## **Features**
 
+Full Screen of the game:
+
+<img src="assets/images/gameImages/GameScreen.png" width="400" height="400">
+
+This section, the player can choose which choise he will play againt the computer and click on the icon:
+
+<img src="assets/images/gameImages/GameChoices.png" width="400" height="200">
+
+On the top part it shows the Scores. Bellow it shows firts the Gamer choice, then the computer choice. Whoever wins gets one point.
+
+<img src="assets/images/gameImages/Score.png" width="400" height="300">
+
+Screen shows that Gamer won, and they have a chance to continue playing clicking on the botton "play again":
+
+<img src="assets/images/gameImages/YouWin.png" width="400" height="300">
+
+Screen shows that Computer won, but game have a chance to continue playing clicking on the botton "play again"::
+
+<img src="assets/images/gameImages/YouLose.png" width="400" height="300">
+
+## **Testing**
+
+### Performance
+
+Lighthouse - Google webdev tool was used to test the performace:
+
+![/assets/images/AmIresponsive.jpg](/assets/images/Lighthouse.jpg)
 
 ### Validator Testing
 
@@ -30,7 +57,7 @@ No errors were found. Tool used to validate: [Jshint validator](https://jshint.c
 
 There are no Bugs left to be fixed.
 
-## Deployement
+## **Deployement**
 
 The project was deployed to GitHub Pages using the following steps:
 
@@ -40,13 +67,24 @@ The project was deployed to GitHub Pages using the following steps:
 - click on "Select branch:" it will drop down. Select "Main", make sure the "Select folder" has "/root" selected.
 - The page will automatically refresh and you receive message "Your site is published at https://renatolemes.github.io/Rock-Paper-Scissors/.
 
-## Credits
+## **Credits**
 
-[Love Maths Project](https://renatolemes.github.io/love-maths/) by Code Institute as a general resource.
+### General Resource
 
-W3School as a general resource.
+These websites were used from inpiration and general resources for coding:
 
+- [Love Maths Project](https://renatolemes.github.io/love-maths/)
+- [W3School](https://www.w3schools.com/)
+- [MDN](https://developer.mozilla.org/en-US/)
 
-color : https://color.adobe.com/search?q=1B262C&t=hex
+### Color
 
-https://color.adobe.com/create/color-wheel
+Adobe color was used to find the perfect color for the project:
+
+- [Adobe Color](https://color.adobe.com/search?q=1B262C&t=hex)
+
+### Media
+
+The Picture used were taken from this project:
+
+- [Github](https://github.com/JLChamberlain/RPSLS/tree/master/IMG/SVG)
