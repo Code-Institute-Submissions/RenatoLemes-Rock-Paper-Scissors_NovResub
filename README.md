@@ -2,6 +2,8 @@
 
 Rock Paper Scissors is an Ancient Game, and it is believe was created by the chinese people. The game has developed since its creation and now with help of JavaScript, it was possible to develop an website bringing this game to the digital world.
 
+The project purpose is to interntain the user with the simple  Rock, paper and Sicisors game, wich on this project it has a high quality that was developed with JavaScript.
+
 ![](/assets/images/AmIresponsive.jpg)
 
 [Live DEMO](https://renatolemes.github.io/Rock-Paper-Scissors/)
@@ -41,6 +43,11 @@ Screen shows that Computer won, but game have a chance to continue playing click
 
 ## **Testing**
 
+### Responsiveness
+For checking the responsiveness it was used the[responsive design checker](https://responsivedesignchecker.com/) website:
+
+<img src="assets/images/responsiveness.png" width="400" height="300">
+
 ### Performance
 
 Lighthouse - Google webdev tool was used to test the performace:
@@ -53,7 +60,7 @@ Lighthouse - Google webdev tool was used to test the performace:
 No errors were found. Tool used to validate: [W3C validator](https://validator.w3.org/nu/)
 
 - #### CSS
-No errors were found. Tool used to validate:: [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
+No errors were found. Tool used to validate:[(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
 
 - #### JavaScript
 No errors were found. Tool used to validate: [Jshint validator](https://jshint.com/)
@@ -92,12 +99,17 @@ These websites were used from inpiration and general resources for coding:
 - [Love Maths Project](https://renatolemes.github.io/love-maths/)
 - [W3School](https://www.w3schools.com/)
 - [MDN](https://developer.mozilla.org/en-US/)
+- [Responsive Design Checker](https://responsivedesignchecker.com/)
 
 ### Color
 
 Adobe color was used to find the perfect color for the project:
 
 - [Adobe Color](https://color.adobe.com/search?q=1B262C&t=hex)
+
+It was choosen the colour palette bellow for the project, but for some different features it was used colours outside the palette so it would make the features more visible, such as the names "Player" and "Computer". 
+
+<img src="assets/images/palette.png" width="400" height="150">
 
 ### Media
 
